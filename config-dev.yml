@@ -3,3 +3,6 @@ spring:
     name: springcloud-config-dev
   profiles:
     active: dev
+  cloud:
+    config:
+      master branch， springcloud-config/config-dev.yml version=2
